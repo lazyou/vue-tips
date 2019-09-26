@@ -1,4 +1,5 @@
 # vue-tips
+* 组件间通信： https://segmentfault.com/a/1190000019208626
 
 ## Project setup
 ```

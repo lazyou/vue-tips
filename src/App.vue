@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <UsersParent></UsersParent>
   </div>
 </template>
+
+<script>
+import UsersParent from "./components/UsersParent"
+
+// 父组件通过props向下传递数据给子组件。
+// 注：组件中的数据共有三种形式：data、props、computed.
+export default {
+  name: 'App',
+  components:{
+    UsersParent,
+  }
+}
+</script>
 
 <style>
 #app {
