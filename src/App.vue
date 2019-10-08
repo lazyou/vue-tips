@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <p>================== 父组件通过props向下传递数据给子组件: ==================</p>
-    <UsersParent/>
+    <UsersParent />
     <hr>
 
     <p>================== 组件间通信：任意组件间使用 eventBus 的 emit, on: ==================</p>
-    <EmitOn/>
+    <EmitOn />
     <hr>
 
     <p>================== 组件间通信：vuex 模块化: ==================</p>
-    <Vuex/>
+    <Vuex />
     <hr>
   </div>
 </template>
