@@ -1,7 +1,9 @@
 <template id="a">
   <div>
-    <h3>A组件：{{name}}</h3>
-    <button @click="send">将数据发送给C组件</button>
+    <h3>A组件：{{ name }}</h3>
+    <button @click="send">
+      将数据发送给C组件
+    </button>
   </div>
 </template>
 
@@ -9,7 +11,7 @@
 import eventBus from '@/eventBus'
 
 export default {
-  name: 'emit-on-a',
+  name: 'EmitOnA',
   data() {
     return {
       name: 'tom',

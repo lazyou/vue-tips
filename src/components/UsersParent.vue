@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <Users :users="users" @titleChanged="updateTitle"></Users>
-    <h2>{{title}}</h2>
+    <Users :users="users"
+      @titleChanged="updateTitle">
+    </Users>
+
+    <h2>{{ title }}</h2>
   </div>
 </template>
 
